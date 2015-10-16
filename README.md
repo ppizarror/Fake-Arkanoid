@@ -1,2 +1,2 @@
 # Fake-Arkanoid
-Un arkanoid creado en pégame
+Un arkanoid creado en pygame
