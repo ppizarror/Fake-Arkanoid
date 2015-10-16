@@ -1,0 +1,24 @@
+# OSX
+.DS_Store
+
+# Pycharm
+.idea/
+
+# Pydev
+.project
+.pydevproject
+
+# Eclipse
+.settings/
+
+# Archivos compilados de python
+*.pyc
+
+# Windows thumbs
+Thumbs.db
+
+# Hashing
+.hash
+
+# Archivos ejecutables
+*.exe
