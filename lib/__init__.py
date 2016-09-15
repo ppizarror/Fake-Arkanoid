@@ -24,7 +24,17 @@ language. The package is highly portable, with games running on
 Windows, MacOS, OS X, BeOS, FreeBSD, IRIX, and Linux.
 """
 
+import pygame.surflock
 import sys, os, string
+
+from pygame.base import *
+import pygame.color
+from pygame.compat import geterror
+from pygame.constants import *
+from pygame.rect import Rect
+import pygame.rwobject
+from pygame.version import *
+
 
 # check if is old windows... if so use directx video driver by default.
 # if someone sets this respect their setting...
@@ -92,14 +102,6 @@ class MissingModule:
 #our modules is with the import command (not the __import__ function)
 
 #first, the "required" modules
-from pygame.base import *
-from pygame.constants import *
-from pygame.version import *
-from pygame.rect import Rect
-from pygame.compat import geterror
-import pygame.rwobject
-import pygame.surflock
-import pygame.color
 Color = color.Color
 __version__ = ver
 

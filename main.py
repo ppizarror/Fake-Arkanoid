@@ -5,16 +5,17 @@
 # 2015
 
 # Importación de librerias
+import math
+import random
 import sys, os
+
+import pygame
+from pygame.locals import *
+
 
 _actualpath = str(os.path.abspath(os.path.dirname(__file__)))
 sys.path.append(_actualpath + "\\lib\\")
 
-import pygame
-from pygame.locals import *
-import random
-import math
-from sympy.physics.units import speed
 
 if not pygame.font: print "Error :: No se ha podido cargar la libreria de fuentes de pygame"
 if not pygame.mixer: print "Error :: No se ha podido cargar la libreria de sonidos de pygame"
@@ -178,7 +179,7 @@ class Ball(pygame.sprite.Sprite):
         self.bricksound = None
         self.vidas = 3
         self.score = 0
-        self.level = 1
+        self.level = 3
         self.lasthit = 0
         self.background = None
 

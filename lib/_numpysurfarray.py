@@ -44,9 +44,11 @@ In contrast to Numeric Numpy does use unsigned 16bit integers, images
 with 16bit data will be treated as unsigned integers.
 """
 
-import pygame
-import numpy
 import re
+
+import numpy
+import pygame
+
 
 def array2d (surface):
     """pygame.numpyarray.array2d (Surface): return array

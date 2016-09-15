@@ -1,15 +1,17 @@
 #
 # These methods are called internally by pygame.scrap
 #
+from cStringIO import StringIO
+import sys
+import tempfile
+
+from pygame.compat import unicode_
+import pygame.image
+from pygame.locals import SCRAP_TEXT, SCRAP_BMP, SCRAP_SELECTION, SCRAP_CLIPBOARD
+
 from AppKit import *
 from Foundation import *
 
-import sys
-import tempfile
-import pygame.image
-from pygame.locals import SCRAP_TEXT, SCRAP_BMP, SCRAP_SELECTION, SCRAP_CLIPBOARD
-from cStringIO import StringIO
-from pygame.compat import unicode_
 
 ScrapPboardType = unicode_('org.pygame.scrap')
 

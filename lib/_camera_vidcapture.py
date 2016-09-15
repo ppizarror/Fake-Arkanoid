@@ -1,6 +1,7 @@
 
 import pygame
 
+
 def list_cameras():
     return [0]
 

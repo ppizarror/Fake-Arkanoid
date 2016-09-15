@@ -85,9 +85,10 @@ Sprites are not thread safe.  So lock them yourself if using threads.
 ## specific ones that aren't quite so general but fit into common
 ## specialized cases.
 
-import pygame
 from pygame import Rect
+import pygame
 from pygame.time import get_ticks
+
 
 # Don't depend on pygame.mask if it's not there...
 try:

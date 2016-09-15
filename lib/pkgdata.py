@@ -18,9 +18,12 @@ object (such as StringIO).
 """
 
 __all__ = ['getResource']
-import sys
 import os
+import sys
+
 from pygame.compat import get_BytesIO
+
+
 BytesIO = get_BytesIO()
 
 try:

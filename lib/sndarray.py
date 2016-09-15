@@ -58,6 +58,7 @@ mind, if you use the module's functions and wonder about the values.
 
 import pygame
 
+
 # Global array type setting. See use_arraytype().
 __arraytype = None
 

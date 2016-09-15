@@ -1,13 +1,15 @@
 import os, sys
 
+from pygame import sdlmain_osx
+from pygame.pkgdata import getResource
+
+
 try:
     import MacOS
 except:
     MacOS = None
 
-from pygame.pkgdata import getResource
 
-from pygame import sdlmain_osx
 
 __all__ = ['Video_AutoInit']
 

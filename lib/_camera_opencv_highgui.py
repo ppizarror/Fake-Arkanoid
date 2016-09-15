@@ -1,13 +1,12 @@
 
-import pygame
 import numpy
+import pygame
 
-import opencv
-#this is important for capturing/displaying images
 from opencv import highgui
+import opencv
 
 
-
+#this is important for capturing/displaying images
 def list_cameras():
     """
     """

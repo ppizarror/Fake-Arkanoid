@@ -61,6 +61,9 @@ and wonder about the values.
 
 import pygame
 
+from _arraysurfarray import blit_array
+
+
 # Global array type setting. See use_arraytype().
 __arraytype = None
 
@@ -83,7 +86,6 @@ except ImportError:
 if not __hasnumpy and not __hasnumeric:
     raise ImportError("no module named numpy or Numeric found")
 
-from _arraysurfarray import blit_array
 
 def array2d (surface):
     """pygame.surfarray.array2d (Surface): return array

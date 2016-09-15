@@ -26,10 +26,10 @@ New in pygame 1.9.0.
 
 
 
+import atexit
+
 import pygame
 import pygame.locals
-
-import atexit
 
 
 #

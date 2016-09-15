@@ -12,9 +12,11 @@ __author__ = "Rene Dudfield"
 __version__ = "0.3.0"
 __license__ = 'Python license'
 
+import threading
 import traceback, sys
 
 from pygame.compat import geterror
+
 
 if sys.version_info[0] == 3:
     from multiprocessing import JoinableQueue as Queue
@@ -27,7 +29,6 @@ else:
     from Queue import Queue
     from Queue import Empty
     
-import threading
 Thread = threading.Thread
 
 STOP = object()

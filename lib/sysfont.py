@@ -22,6 +22,7 @@
 
 import os, sys
 
+
 #Python 3 compatibility
 try:
     bytes
