@@ -2,15 +2,15 @@
 Un arkanoid muy simple creado en pygame.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/fake-arkanoid/captura1.PNG" width="80%px">
+<img src="https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/fake-arkanoid/captura1.PNG" width="70%px">
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/fake-arkanoid/captura2.PNG" width="80%px">
+<img src="https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/fake-arkanoid/captura2.PNG" width="70%px">
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/fake-arkanoid/captura3.PNG" width="80%px">
+<img src="https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/fake-arkanoid/captura3.PNG" width="70%px">
 </p>
 
 ## Autor
