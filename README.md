@@ -1,4 +1,7 @@
 # Fake-Arkanoid
+[![@ppizarror](http://ppizarror.com/resources/images/autor.svg)](http://ppizarror.com)
+[![Licencia GPL](http://ppizarror.com/resources/images/licenciagpl2.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
 Un arkanoid muy simple creado en pygame.
 
 <p align="center">
