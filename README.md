@@ -17,6 +17,4 @@ Un arkanoid muy simple creado en pygame.
 </p>
 
 ## Autor
-Pablo Pizarro, 2015.
-
-Si tienes alguna sugerencia envíame un correo a: [pablo.pizarro@ing.uchile.cl](mailto:pablo.pizarro@ing.uchile.cl), o sencillamente ten la libertad de enviar un _pull request_.
+<a href="http://ppizarror.com">Pablo Pizarro R.</a>, 2015.
