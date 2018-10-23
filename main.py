@@ -12,13 +12,13 @@ import sys, os
 import pygame
 from pygame.locals import *
 
-
 _actualpath = str(os.path.abspath(os.path.dirname(__file__)))
 sys.path.append(_actualpath + "\\lib\\")
 
-
-if not pygame.font: print "Error :: No se ha podido cargar la libreria de fuentes de pygame"
-if not pygame.mixer: print "Error :: No se ha podido cargar la libreria de sonidos de pygame"
+if not pygame.font: print
+"Error :: No se ha podido cargar la libreria de fuentes de pygame"
+if not pygame.mixer: print
+"Error :: No se ha podido cargar la libreria de sonidos de pygame"
 
 # CONSTANTES
 LEVEL1 = [[(5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1)],
@@ -51,19 +51,21 @@ LEVEL3 = [[(0, 0, 0), (0, 0, 0), (8, 2, 2), (8, 2, 2), (8, 2, 2), (8, 2, 2), (8,
           ]
 
 LEVELCAGE = [[(5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1)],
-          [(6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1)],
-          [(7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1)],
-          [(8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1)],
-          [(9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1)],
-          [(10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1)],
-          [(9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1)],
-          [(8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1)],
-          [(7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1)],
-          [(6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1)],
-          [(5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1)],
-          ]
+             [(6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1)],
+             [(7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1)],
+             [(8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1)],
+             [(9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1)],
+             [(10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1), (10, 1, 1),
+              (10, 1, 1)],
+             [(9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1), (9, 1, 1)],
+             [(8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1), (8, 1, 1)],
+             [(7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1), (7, 1, 1)],
+             [(6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1), (6, 1, 1)],
+             [(5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1), (5, 1, 1)],
+             ]
 
 SW4G = 9
+
 
 # Definición de funciones
 def load_image(file, transparency=False, colorKey=None):
@@ -78,20 +80,26 @@ def load_image(file, transparency=False, colorKey=None):
             image.set_alpha(127)
         return image, image.get_recl()
     except:
-        print "Error :: No se ha podido cargar la imagen"
+        print
+        "Error :: No se ha podido cargar la imagen"
+
 
 def load_sound(file):
     class Nonesound:
         def play(self): pass
-    if not pygame.mixer: return Nonesound
+
+    if not pygame.mixer:
+        return Nonesound
     else:
         return pygame.mixer.Sound(file)
+
 
 def sgn(x):
     if x == 0:
         return 0
     else:
         return abs(x) / x
+
 
 def loadlevel(bricks, level):
     for i in range(len(level)):
@@ -101,9 +109,11 @@ def loadlevel(bricks, level):
                 brick.place(64 * j + 30, 32 * i + 40)
                 bricks.append(brick)
 
+
 def quit():
     os.system("taskkill /PID " + str(os.getpid()) + " /F")
     exit()
+
 
 class Bar:
     def __init__(self, texture):
@@ -149,6 +159,7 @@ class Bar:
         self.direction = 1
         self.rectl.x = self.pos
         self.rectl.y = 440
+
 
 class Ball(pygame.sprite.Sprite):
     def __init__(self, texture, pad):
@@ -196,7 +207,7 @@ class Ball(pygame.sprite.Sprite):
     def update(self, *args):
         if self.launched and not self.perdio:
             self.y += self.speedy
-            self.y = max (self.y, 0)
+            self.y = max(self.y, 0)
             self.x += self.speedx
 
             self.rectl.y = self.y
@@ -245,8 +256,10 @@ class Ball(pygame.sprite.Sprite):
                     self.speedx += 0.0025
                     self.speedy += 0.0025
                     if brick.vidas == 0:
-                        if brick.getType() == 1: self.score += 10 * self.level
-                        elif brick.getType() == 2: self.score += 30 * self.level
+                        if brick.getType() == 1:
+                            self.score += 10 * self.level
+                        elif brick.getType() == 2:
+                            self.score += 30 * self.level
                         self.bricks.pop(i)
                         self.speedy = -self.speedy
                         self.bricksound.play()
@@ -305,10 +318,10 @@ class Ball(pygame.sprite.Sprite):
             pygame.display.set_caption("$W€G")
             self.vidas = 9999
 
+
 class Brick:
 
     def __init__(self, texture, type, vidas):
-
         self.image = pygame.image.load(texture).convert()
         self.image = pygame.transform.scale2x(self.image)
         self.rect = self.image.get_rect()
@@ -326,8 +339,8 @@ class Brick:
     def getType(self):
         return self.type
 
-def main():
 
+def main():
     # Inicializamos
     pygame.init()
     screen = pygame.display.set_mode((640, 480))
@@ -412,6 +425,7 @@ def main():
 
         pygame.display.flip()
         ball.update()
+
 
 if __name__ == "__main__":
     main()
