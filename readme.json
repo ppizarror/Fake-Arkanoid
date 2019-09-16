@@ -2,12 +2,12 @@
     "PROJECT": {
         "NAME": "Fake-Arkanoid",
         "ICON": {
-            "IMAGE": "https://ppizarror.com/resources/other/python.png",
+            "IMAGE": "https://res.ppizarror.com/other/python.png",
             "ALT": "Fake-Arkanoid",
             "WIDTH": 200,
             "HEIGHT": 200
         },
-        "URL": "https://ppizarror.com/Fake-Arkanoid/",
+        "URL": "",
         "URL_TITLE": "Fake-Arkanoid"
     },
     "AUTHOR": {
@@ -23,17 +23,17 @@
     "DESCRIPTION": "Un arkanoid muy simple creado en pygame",
     "BADGES": {
         "0": {
-            "IMAGE": "https://ppizarror.com/badges/autor.svg",
+            "IMAGE": "https://res.ppizarror.com/badges/autor.svg",
             "HREF": "https://ppizarror.com",
             "ALT": "@ppizarror"
         },
         "1": {
-            "IMAGE": "https://ppizarror.com/badges/licenciagpl2.svg",
+            "IMAGE": "https://res.ppizarror.com/badges/licenciagpl2.svg",
             "HREF": "https://www.gnu.org/licenses/gpl-2.0.html/",
             "ALT": "Licencia GPL v2"
         },
 		"2": {
-		  "IMAGE": "https://ppizarror.com/badges/python27.svg",
+		  "IMAGE": "https://res.ppizarror.com/badges/python27.svg",
 		  "HREF": "https://www.python.org/downloads/",
 		  "ALT": "Python 2.7"
 		}
